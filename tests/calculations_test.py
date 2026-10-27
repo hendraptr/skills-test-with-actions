@@ -69,15 +69,15 @@ def test_get_nth_fibonacci_one():
 
 
 def test_get_nth_fibonacci_ten():
-     """Test with n=10."""
-     # Arrange
-     n = 10
+    """Test with n=10."""
+    # Arrange
+    n = 10
 
-     # Act
-     result = get_nth_fibonacci(n)
+    # Act
+    result = get_nth_fibonacci(n)
 
-     # Assert
-     assert result == 55
+    # Assert
+    assert result == 55
 
 
 def test_get_nth_fibonacci_negative():
